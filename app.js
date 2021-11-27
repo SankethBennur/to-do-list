@@ -18,11 +18,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 // for fetching post requests from req.body.name property
 
 // Creating a Mongoose Schema
-// const toDoListSchema = new mongoose.Schema(
-//     {itemEntry: String}
-// );
+const toDoListSchema = new mongoose.Schema(
+    {itemEntry: String}
+);
 
-// var toDoList = mongoose.model('ToDo', toDoListSchema);
+var toDoList = mongoose.model('ToDo', toDoListSchema);
 
 
 
